@@ -7,7 +7,7 @@ let urlencodedParser = urlencoded({extended: false});
 module.exports = function(app) {
 
 const bot = new slackBot({
-    token: 'xoxb-638802650978-638789633107-ZQp7sYtyCJZlxcLZvUbsnK5f',
+    token: 'xoxb-638802650978-638789633107-uHwd56cTCzyP6TDaZ1AtYUVH',
     name: 'tryBot'
 });
 
