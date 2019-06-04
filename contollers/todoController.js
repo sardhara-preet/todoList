@@ -11,7 +11,7 @@ const bot = new slackBot({
     name: 'tryBot'
 });
 
-app.get('/todo', function(req, res) {
+app.get('/', function(req, res) {
     res.render('todo', {todos: data});
 });
 
